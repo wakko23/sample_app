@@ -16,7 +16,7 @@ group :development do
 end
 
 group :test do
-  gem 'rspec'
+  gem 'rspec', '2.0.1'
   gem 'webrat', '0.7.1'
 end
 
@@ -33,6 +33,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+gem 'win32console'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
